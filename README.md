@@ -1,6 +1,6 @@
 # PianoLearn
 
-PianoLearn is a desktop application, where an user can play on piano or learn new tonnals and piano accords in a handbook.  
+PianoLearn is a desktop application written on Java for playing on piano or learning new tonnals and piano's accords in a handbook.  
 
 ## Installation 
 1. Check installation of Java on your computer.
