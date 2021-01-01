@@ -4,7 +4,7 @@ PianoLearn is a desktop application, where an user can play on piano or learn ne
 
 ## Installation 
 1. Check installation of Java on your computer.
-1. Run PianoLearn.jar by [link](/out/artifacts/PianoLearn_jar/PianoLearn.jar).
+1. Run PianoLearn.jar by [link](/out/artifacts/PianoLearn_jar/).
 
 ## Screenshots
 #### Main menu
