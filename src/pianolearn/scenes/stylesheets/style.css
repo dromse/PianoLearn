@@ -1,32 +1,56 @@
 .root {
     -fx-background-color: black;
+    -fx-background-image: url("../img/background.jpg");
 }
 
 #PianoPane {
-    -fx-background-color: dimgrey;
+    -fx-background-color: #191919;
 }
 
 #mainMenuButton {
-    -fx-background-color: white;
-    -fx-border-color: black;
+    -fx-background-color: #000000aa;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+#mainMenuButton:hover {
+    -fx-background-color: black;
+    -fx-pref-width: 170px;
+    -fx-pref-height: 45px;
+    -fx-font-size: 21px;
 }
 
 #logoTextLabel {
+    -fx-background-color: black;
     -fx-text-fill: white;
-    -fx-font-size: 50px;
+    -fx-font-size: 70px;
 }
-
 
 .mainMenuButtons {
-    -fx-border-color: black;
-    -fx-pref-height: 100px;
-    -fx-pref-width: 100px;
+    -fx-background-color: #000000aa;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-pref-height: 60px;
+    -fx-pref-width: 170px;
+    -fx-border-radius: 0px;
 }
 
+.mainMenuButtons:hover {
+    -fx-background-color: black;
+    -fx-font-size: 25px;
+    -fx-pref-height: 70px;
+    -fx-pref-width: 200px;
+}
+
+.mainMenuButtons:pressed {
+    -fx-background-color: dimgrey;
+}
 
 .WhiteNote {
     -fx-pref-width: 65px;
-    -fx-pref-height: 150px;
+    -fx-pref-height: 280px;
     -fx-background-radius: 0px;
     -fx-background-color: white;
     -fx-border-color: black;
@@ -34,26 +58,26 @@
 }
 
 .WhiteNote:hover {
-
+    -fx-background-color: gray;
 }
 
 .WhiteNote:pressed {
-    -fx-background-color: gray;
+    -fx-background-color: white;
 }
 
 .BlackNote {
     -fx-background-color: black;
     -fx-background-radius: 0px;
     -fx-pref-width: 28px;
-    -fx-pref-height: 65px;
+    -fx-pref-height: 120px;
     -fx-text-fill: white;
     -fx-wrap-text: true;
 }
 
 .BlackNote:hover {
-
+    -fx-background-color: grey;
 }
 
 .BlackNote:pressed {
-    -fx-background-color: dimgrey;
+    -fx-background-color: #00000000;
 }
