@@ -13,7 +13,6 @@ public class Main extends Application {
         menu.start(primaryStage);
     }
 
-
     public static void main(String[] args) {
         launch(args);
     }

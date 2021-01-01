@@ -38,7 +38,7 @@ public class PianoController implements Initializable {
         try {
             synth.close();
             Stage window = (Stage)((Node) actionEvent.getSource()).getScene().getWindow();
-            window.setScene(new Scene(FXMLLoader.load(getClass().getResource("../scenes/MainMenuScene.fxml"))));
+            window.setScene(new Scene(FXMLLoader.load(getClass().getResource("scenes/MainMenuScene.fxml"))));
             window.show();
         } catch (IOException e) {
             System.err.println("Error: Cannot open main menu.");
