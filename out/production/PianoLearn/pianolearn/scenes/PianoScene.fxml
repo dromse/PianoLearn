@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="600.0" stylesheets="@stylesheets/style.css"
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pianolearn.controllers.PianoController">
+
+   <bottom>
+       <AnchorPane id="PianoPane" prefHeight="200.0" prefWidth="200.0">
+           <Button layoutX="16.0" layoutY="10.0" styleClass="WhiteNote" text="C" />
+           <Button layoutX="49.0" layoutY="10.0" styleClass="BlackNote" text="C#" />
+           <Button layoutX="84.0" layoutY="10.0" styleClass="WhiteNote" text="D" />
+           <Button layoutX="117.0" layoutY="10.0" styleClass="BlackNote" text="D#" />
+           <Button layoutX="152.0" layoutY="10.0" styleClass="WhiteNote" text="E" />
+           <Button layoutX="220.0" layoutY="10.0" styleClass="WhiteNote" text="F" />
+           <Button layoutX="256.0" layoutY="10.0" styleClass="BlackNote" text="F#" />
+           <Button layoutX="288.0" layoutY="10.0" styleClass="WhiteNote" text="G" />
+           <Button layoutX="324.0" layoutY="8.0" styleClass="BlackNote" text="G#" />
+           <Button layoutX="356.0" layoutY="10.0" styleClass="WhiteNote" text="A" />
+           <Button layoutX="392.0" layoutY="8.0" styleClass="BlackNote" text="A#" />
+           <Button layoutX="424.0" layoutY="10.0" styleClass="WhiteNote" text="B" />
+           <Button layoutX="492.0" layoutY="10.0" styleClass="WhiteNote" text="C" />
+       </AnchorPane>
+   </bottom>
+   <left>
+       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+           <Button id="mainMenuButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Main Menu" onAction="#openMainMenu"/>
+       </AnchorPane>
+   </left>
+</BorderPane>
