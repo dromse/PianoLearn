@@ -14,12 +14,13 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class HandBookController implements Initializable {
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
     }
 
-    // when this method is called -> change scene to piano
+    // when this method is called -> change scene to main menu
     public void openMainMenu(ActionEvent actionEvent) {
         try {
             Stage window = (Stage)((Node) actionEvent.getSource()).getScene().getWindow();
@@ -30,4 +31,5 @@ public class HandBookController implements Initializable {
             e.printStackTrace();
         }
     }
+
 }

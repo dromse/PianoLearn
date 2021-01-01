@@ -22,6 +22,7 @@ import java.util.List;
 import java.util.ResourceBundle;
 
 public class PianoController implements Initializable {
+
     private MidiChannel channel;
 
     private final List<Note> notes = Arrays.asList(
@@ -54,7 +55,7 @@ public class PianoController implements Initializable {
         }
     }
 
-    // when this method is called -> change scene to piano
+    // when this method is called -> change scene to main menu
     public void openMainMenu(ActionEvent actionEvent) {
         try {
             Stage window = (Stage)((Node) actionEvent.getSource()).getScene().getWindow();
