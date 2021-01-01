@@ -7,7 +7,9 @@ PianoLearn is a desktop application written on Java for playing on the piano or 
 1. Run PianoLearn.jar by [link](/out/artifacts/PianoLearn_jar/).
 
 ## Screenshots
-### Main menu
+### Screen of main menu 
 ![Main menu](/screenshots/Screenshot_MainMenu.png)
-### Piano
+### Screen of the piano
 ![Piano](/screenshots/Screenshot_Piano.png)
+### Screen of the handbook
+![HandBook](/screenshots/Screenshot_HandBook.png)
