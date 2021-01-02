@@ -1,21 +1,45 @@
 package pianolearn.controllers;
 
+import javafx.animation.PauseTransition;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
+import javafx.util.Duration;
+
 import javax.sound.midi.MidiChannel;
 import javax.sound.midi.MidiSystem;
 import javax.sound.midi.MidiUnavailableException;
 import javax.sound.midi.Synthesizer;
+import java.awt.event.KeyListener;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class PianoController implements Initializable {
+    public Button C1Button;
+    public Button CSharp1Button;
+    public Button D1Button;
+    public Button DSharp1Button;
+    public Button E1Button;
+    public Button F1Button;
+    public Button FSharp1Button;
+    public Button G1Button;
+    public Button GSharp1Button;
+    public Button A1Button;
+    public Button ASharp1Button;
+    public Button B1Button;
+    public Button C2Button;
+
     private MidiChannel channel;
+
+    /* Create synth. */
     Synthesizer synth;
     {
         try {
@@ -55,6 +79,47 @@ public class PianoController implements Initializable {
         }
     }
 
+    /* Playing on keyboard */
+    public void handleKeyPressed(KeyEvent ke){
+        if (ke.getCode() == KeyCode.Q) {
+            C1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.W) {
+            CSharp1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.E) {
+            D1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.R) {
+            DSharp1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.T) {
+            E1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.Y) {
+            F1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.U) {
+            FSharp1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.I) {
+            G1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.O) {
+            GSharp1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.P) {
+            A1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.OPEN_BRACKET) {
+            ASharp1Button.fire();
+        }
+        if (ke.getCode() == KeyCode.CLOSE_BRACKET) {
+            B1Button.fire();
+        }
+    }
+
+    /* Playing by clicking on buttons*/
     public void playC1Button(ActionEvent actionEvent) {
         channel.noteOn(60, 60);
     }
