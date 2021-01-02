@@ -4,7 +4,7 @@ PianoLearn is a desktop application written on Java for playing on the piano or 
 
 ## Installation 
 1. Check installation of Java Virtual Machine on your computer.
-1. Run PianoLearn.jar by [link](/out/artifacts/PianoLearn_jar/).
+1. Download and run PianoLearn.jar by [link](/out/artifacts/PianoLearn_jar/).
 
 ## Screenshots
 ### Screen of main menu 
