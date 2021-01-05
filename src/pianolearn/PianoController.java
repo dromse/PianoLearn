@@ -29,7 +29,9 @@ public class PianoController implements Initializable {
     }
 
     /* Playing by clicking on buttons*/
-    public void playC1Button(ActionEvent actionEvent) { piano.playNote(60); }
+    public void playC1Button(ActionEvent actionEvent) { 
+        piano.playNote(60); 
+    }
     public void playCSharp1Button(ActionEvent actionEvent) {
         piano.playNote(61);
     }
