@@ -1,4 +1,4 @@
-package pianolearn.controllers;
+package pianolearn;
 
 import javafx.event.ActionEvent;
 

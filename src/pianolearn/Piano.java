@@ -1,6 +1,5 @@
-package pianolearn.controllers;
+package pianolearn;
 
-import javafx.event.ActionEvent;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 
