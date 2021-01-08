@@ -22,7 +22,7 @@ public class HandBookController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        RootNoteChoiceBox.getItems().addAll("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "B");
+        RootNoteChoiceBox.getItems().addAll("C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "B", "GbM" );
         AccordChoiceBox.getItems().addAll("major", "minor");
     }
 
