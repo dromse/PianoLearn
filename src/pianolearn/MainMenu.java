@@ -14,7 +14,7 @@ public class MainMenu implements IMainMenu {
             Parent menu = FXMLLoader.load(getClass().getResource("scenes/MainMenuScene.fxml"));
             Scene menuScene = new Scene(menu);
             stage.setTitle("PianoLearn");
-
+            
             stage.setScene(menuScene);
             stage.show();
         } catch (IOException e) {

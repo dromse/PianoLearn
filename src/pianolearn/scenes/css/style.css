@@ -1,6 +1,6 @@
 .root {
     -fx-background-color: black;
-    -fx-background-image: url("../img/background.jpg");
+    -fx-background-image: url("../../../../../PianoLearn_1/app/src/main/res/drawable/background.jpg");
 }
 
 #PianoPane {
